@@ -1,16 +1,42 @@
 #include <map>
 #include <iostream>
 #include <string>
-#include <HW2_Visualizer.h>
+#include "HW2_Visualizer.cpp"
+#include "HW2_Visualizer.h"
+#include <math.h>
+#include <random>
 
 using namespace std;
 
+double Plane::getpos() { 
+	return pos; 
+}
+double Plane::getvel() {
+	return vel;
+}
+
+double Plane::getloiter() {
+	return loiter_time;
+}
+
+string Plane::getorigin() {
+	return origin;
+}
+
+string Plane::getdestination() {
+	return destination;
+}
+
+bool Plane::getat_SCE() {
+	return at_SCE;
+}
+
 void setvel(double vel) {
-	this->vel = vel;
+	vel = vel;
 };
 
 void setloiter(double loiter_time) {
-	this->loiter_time = loiter_time;
+	loiter_time = loiter_time;
 };
 
 void Plane::operate(double dt) {
@@ -41,7 +67,7 @@ double draw_from_normal_dist(double mean, double standard_deviation){
 	return d(gen);
 }
 
-class Plane {
+class Plane{
 protected:
 	double wait_time;
 
@@ -70,8 +96,8 @@ public:
 	string getdestination();
 	bool getat_SCE();
 
-	double setvel();
-	double setloiter();
+	void setvel(double vel);
+	void setloiter(double loiter_time);
 	double distance_to_SCE();
 
 	virtual double time_on_ground() = 0;
@@ -85,12 +111,6 @@ public:
 	string to;
 	string origin = from;
 	string destination = to;
-
-	double pos = 0;
-	double vel = 0;
-	double wait_time = 0;
-	double loiter_time = 0;
-	bool at_SCE = 0;
 };
 class Airliner {
 private:

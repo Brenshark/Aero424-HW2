@@ -1,0 +1,63 @@
+﻿  HW2_Visualizer.cpp
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(31,13): warning C4244: 'argument': conversion from 'double' to 'Uint32', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(48,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(49,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(82,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(83,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(86,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(87,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(90,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(91,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(31,13): warning C4244: 'argument': conversion from 'double' to 'Uint32', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(48,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(49,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(82,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(83,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(86,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(87,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(90,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(91,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(18,6): error C2653: 'Plane': is not a class or namespace name
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(19,6): error C2065: 'loiter_time': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(19,24): error C2065: 'loiter_time': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(20,11): error C2065: 'wait_time': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(20,27): error C2065: 'wait_time': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(21,11): error C2065: 'pos': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(21,17): error C2563: mismatch in formal parameter list
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(21,17): error C2568: '<': unable to resolve function overload
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(21,17): message : could be 'iterator_traits<_Iter>::difference_type std::distance(_InIt,_InIt)'
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(22,3): error C2065: 'pos': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(22,10): error C2065: 'vel': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(22,20): error C2065: 'at_SCE': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(24,11): error C2065: 'destination': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(24,34): error C2065: 'at_SCE': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(26,2): error C2065: 'wait_time': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(26,14): error C3861: 'time_on_ground': identifier not found
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(27,2): error C2065: 'destination': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(27,16): error C2065: 'origin': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(28,2): error C2065: 'pos': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(30,8): error C2653: 'Plane': is not a class or namespace name
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(31,6): error C2065: 'destination': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(31,46): error C2065: 'pos': undeclared identifier
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(31,35): error C2563: mismatch in formal parameter list
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(83,2): error C2535: 'Plane::Plane(std::string,std::string)': member function already defined or declared
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(65,2): message : see declaration of 'Plane::Plane'
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(84,9): error C2535: 'std::string Plane::getorigin(void)': member function already defined or declared
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(71,9): message : see declaration of 'Plane::getorigin'
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(85,9): error C2535: 'std::string Plane::getdestination(void)': member function already defined or declared
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(72,9): message : see declaration of 'Plane::getdestination'
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(88,9): error C2086: 'std::string Plane::origin': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(89,9): error C2086: 'std::string Plane::destination': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(91,9): error C2086: 'double Plane::pos': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(92,9): error C2086: 'double Plane::vel': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(93,9): error C2086: 'double Plane::wait_time': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(94,9): error C2086: 'double Plane::loiter_time': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(95,7): error C2086: 'bool Plane::at_SCE': redefinition
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(105,2): error C2535: 'Airliner::Airliner(std::string,std::string,std::string)': member function already defined or declared
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(101,2): message : see declaration of 'Airliner::Airliner'
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(122,9): error C2535: 'double GeneralAviation::time_on_ground(void)': member function already defined or declared
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(118,9): message : see declaration of 'GeneralAviation::time_on_ground'
+  ATC.cpp
+  Aircraft.cpp
+  Generating Code...
