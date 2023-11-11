@@ -133,11 +133,8 @@
   <ItemGroup>
     <ClCompile Include="HW2_Visualizer.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ATC.cpp" />
-    <ClCompile Include="Aircraft.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ATC.h" />
     <ClInclude Include="HW2_Visualizer.h" />
   </ItemGroup>
   <ItemGroup>
