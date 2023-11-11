@@ -8,3 +8,4 @@ C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(86,67): warning C4244
 C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(87,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(90,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\Brens\source\repos\Aero424-HW2\HW2_Visualizer.cpp(91,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Brens\source\repos\Aero424-HW2\main.cpp(143): warning C4715: 'Plane::distance_to_SCE': not all control paths return a value
